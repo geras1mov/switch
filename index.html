@@ -6,23 +6,19 @@
     <title>ВЫКЛЮЧАТЕЛЬ</title>
 
     <script src="change.js"></script>
-    <link href="design.css" rel="stylesheet"/>
+
+    <link href="css/design.css" rel="stylesheet"/>
+    <link href="css/adaptive.css" rel="stylesheet"/>
   </head>
 
   <body style="background: var(--background-color)">
-    <div class="container">
-      <button id="close-image" class="center btn" onclick="change()">
-        <img id="image" src="src/off.png" alt="ВЫКЛЮЧАТЕЛЬ"/>
+    <div class="container center">
+      <button class="btn center" onclick="change()">
+        <img id="image-button"
+        src="src/off.png" 
+        alt="ВЫКЛЮЧАТЕЛЬ" 
+        class="center btn-img"/>
       </button>
-      
-      
     </div>
-    
-    <img src="src/marriage titanik.jpg" alt="пасхалка" id="titanik" class="img1 center">
-    
-    <!-- <div id="titanik" class="container" style="visibility: hidden;">
-      
-    </div> -->
-
   </body>
 </html>
