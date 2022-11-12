@@ -1,2 +1,1 @@
-# mynzzz.github.io
- switch site
+# САЙТ ВЫКЛЮЧАТЕЛЬ
