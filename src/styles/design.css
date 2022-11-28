@@ -1,6 +1,7 @@
 :root {
   --background-color: black;
   --button-color: white;
+  --btn-hover-color: white;
 }
 
 body {
@@ -30,4 +31,8 @@ a {
 }
 .toggle {
   font-size: 300px;
+}
+
+i:hover {
+  text-shadow: 0 0 35px var(--btn-hover-color);
 }
