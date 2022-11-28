@@ -1,0 +1,21 @@
+@media screen and (max-width: 1440px) {
+  ._button {
+    margin-top: 10%;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  ._button {
+    margin-top: 13%;
+  }
+}
+
+
+
+@media screen and (max-width: 992px) {
+  ._button {
+    margin-top: 15%;
+  }
+}
