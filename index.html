@@ -3,22 +3,33 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Выключатель">
+    <meta property="og:site_name" content="Выключи свет, пожалуйста...">
+    <meta property="og:url" content="https://geras1mov.github.io/switch">
+    <meta property="og:description" content="Место, где можно баловаться светом и не получить по шапке от родителей">
+    <meta property="og:image" content="https://geras1mov.github.io/switch/src/images/logo.png">
+    <meta property="og:image:width" content="908px">
+    <meta property="og:image:height" content="504px">
+
+
     <title>ВЫКЛЮЧАТЕЛЬ</title>
 
     <script src="src/scripts/change.js"></script>
     <script src="https://kit.fontawesome.com/c83f4d8ec9.js" crossorigin="anonymous"></script>
 
     <link href="src/styles/design.css" rel="stylesheet"/>
-    <link href="src/styles/adaptive.css" rel="stylesheet"/>
+
+    <link rel="shortcut icon" href="src/images/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://geras1mov.github.io/switch/src/images/logo.png">
   </head>
 
   <body>
-    <div class="container">
-      <div class="_button">
-        <a onclick="change()">
-          <i id="btn" class="fa-solid fa-toggle-off toggle"></i>
-        </a>
-      </div>
-    </div>
+    <section>
+      <a onclick="change()">
+        <i id="btn" class="fa-solid fa-toggle-off toggle"></i>
+      </a>
+    </section>
   </body>
 </html>

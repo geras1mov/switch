@@ -4,13 +4,12 @@
   --btn-hover-color: white;
 }
 
-body {
+html, body {
   background: var(--background-color);
-  width: 99%;
-  height: 99%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
+  width: 100%;
+  margin: 0 0;
+  padding: 0 0;
 }
 
 a {
@@ -18,17 +17,14 @@ a {
   color: var(--button-color);
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
-._button {
-  margin-top: 13%;
-  position: relative;
-}
+
 .toggle {
   font-size: 300px;
 }
