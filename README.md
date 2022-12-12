@@ -1,2 +1,2 @@
 # САЙТ ВЫКЛЮЧАТЕЛЬ
-https://is-mynzzz.github.io/switch/
+https://geras1mov.github.io/switch/
